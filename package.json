@@ -1,7 +1,7 @@
 {
-  "name": "bpmn-js-disable-collapsed-subprocess",
+  "name": "bpmn-js-disable-expanded-subprocess",
   "version": "0.1.7",
-  "description": "bpmn-js extension which disables modeling collapsed subprocess via replace menu",
+  "description": "bpmn-js extension which disables modeling expanded subprocess via replace menu",
   "main": "index.js",
   "files": [
     "src",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bpmn-io/bpmn-js-disable-collapsed-subprocess.git"
+    "url": "git+https://github.com/olavorn/bpmn-js-disable-expanded-subprocess.git"
   },
-  "author": "Maciej Barelkowski <maciejbarel@gmail.com> (https://github.com/barmac)",
+  "author": "Olavo Rocha Neto <olavorn@gmail.com> (https://github.com/olavorn)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bpmn-io/bpmn-js-disable-collapsed-subprocess/issues"
+    "url": "https://github.com/olavorn/bpmn-js-disable-expanded-subprocess/issues"
   },
-  "homepage": "https://github.com/bpmn-io/bpmn-js-disable-collapsed-subprocess#readme",
+  "homepage": "https://github.com/olavorn/bpmn-js-disable-expanded-subprocess#readme",
   "devDependencies": {
     "bpmn-js": "^12.1.0",
     "chai": "^4.3.6",
