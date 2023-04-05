@@ -1,3 +1,3 @@
-import DisabledCollapsedSubprocessPopupProviderModule from './src';
+import DisabledExpandedSubprocessPopupProviderModule from './src';
 
-export default DisabledCollapsedSubprocessPopupProviderModule;
+export default DisabledExpandedSubprocessPopupProviderModule;
