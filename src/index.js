@@ -1,4 +1,4 @@
-import DisabledCollapsedSubprocessPopupProvider from './DisabledCollapsedSubprocessPopupProvider';
+import DisabledExpandedSubprocessPopupProvider from './DisabledExpandedSubprocessPopupProvider';
 
 
 export default {
@@ -6,6 +6,6 @@ export default {
     'popupMenu',
     'bpmnReplace'
   ],
-  __init__: [ 'disabledCollapsedSubprocessPopupProvider' ],
-  disabledCollapsedSubprocessPopupProvider: [ 'type', DisabledCollapsedSubprocessPopupProvider ]
+  __init__: [ 'disabledExpandedSubprocessPopupProvider' ],
+  disabledExpandedSubprocessPopupProvider: [ 'type', DisabledExpandedSubprocessPopupProvider ]
 };
