@@ -1,13 +1,13 @@
-# bpmn-js disable collapsed subprocess
+# bpmn-js disable expanded subprocess
 
-A bpmn-js extension which disables modeling collapsed subprocess via replace menu.
+A bpmn-js extension which disables modeling expanded subprocess via replace menu.
 
 ## Installation
 
 Install via [npm](http://npmjs.com/).
 
 ```bash
-npm install bpmn-js-disable-collapsed-subprocess
+npm install bpmn-js-disable-expanded-subprocess
 ```
 
 Add as additional module to [bpmn-js](https://github.com/bpmn-io/bpmn-js).
@@ -16,12 +16,12 @@ Add as additional module to [bpmn-js](https://github.com/bpmn-io/bpmn-js).
 
 ```javascript
 var BpmnModeler = require('bpmn-js/lib/Modeler');
-var disableCollapsedSubprocessModule = require('bpmn-js-disable-collapsed-subprocess');
+var disableExpandedSubprocessModule = require('bpmn-js-disable-expanded-subprocess');
 
 var modeler = new BpmnModeler({
   container: '#canvas',
   additionalModules: [
-    disableCollapsedSubprocessModule
+    disableExpandedSubprocessModule
   ]
 });
 ```
